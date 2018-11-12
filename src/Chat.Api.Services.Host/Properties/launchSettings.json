@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Chat.Api.Services.Host": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

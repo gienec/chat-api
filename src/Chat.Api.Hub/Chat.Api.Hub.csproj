@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.Api.Models\Chat.Api.Models.csproj" />
+    <ProjectReference Include="..\Chat.Api.Repositories\Chat.Api.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
